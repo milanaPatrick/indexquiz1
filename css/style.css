@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header {
+    background-color: rgb(241, 220, 213);
+}
+
+body {
+    max-width: 1200px;
+    
+}
+#hero {
+    margin-left: 15px;
+    
+}
+.head-a {
+    text-decoration: none; 
+    color: rgb(14, 7, 7);
+    text-overflow: 0 auto;
+}
+
+li {
+    text-align: center;  
+    list-style: none;
+     
+}
+
+li:hover {
+    background-color: rgb(233, 48, 162);
+
+}
+
+
+.card {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.card-1 {
+    float:left;
+    width: 380px;
+    margin: 10px;
+    overflow: auto;
+    line-height: 1.7;
+}
+
+.card-2 {
+    float:left;
+    width: 380px;
+    margin: 10px;
+    overflow: auto;
+    line-height: 1.7;
+}
+
+.card-3 {
+    float:left;
+    width: 380px;
+    margin: 10px;
+    overflow: auto;
+    line-height: 1.7;
+   
+}
+img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    margin-left: 5px;
+}
+
