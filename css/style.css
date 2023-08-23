@@ -4,28 +4,37 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+
 header {
-    background-color: rgb(241, 220, 213);
+    background-color: rgb(88, 200, 245);
+    margin-top: 20px;
+    
 }
 
 body {
+    background-color: rgb(183, 12, 199);
+    margin: 0 auto;
     max-width: 1200px;
-    
 }
+
 #hero {
-    margin-left: 15px;
+    padding: 20px;
+    background-color: rgb(166, 43, 248);
+    margin-top: 15px;
     
 }
+
 .head-a {
     text-decoration: none; 
     color: rgb(14, 7, 7);
     text-overflow: 0 auto;
+
 }
 
 li {
-    text-align: center;  
-    list-style: none;
-     
+    text-align: center;
+    display: inline;
+    padding: 30px;
 }
 
 li:hover {
@@ -33,22 +42,26 @@ li:hover {
 
 }
 
-
+.card-container {
+    background-color: azure;
+    margin-top: 20px;
+}
 .card {
     width: 500px;
     height: 500px;
     padding: 20px;
     border: 1px solid #e0e0e0;
-    background: #fff;
-    margin: 0 auto;
+    background: #da0d9c;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    
+    
     
 }
 .card-1 {
     float:left;
     width: 380px;
     margin: 10px;
-    overflow: auto;
     line-height: 1.7;
 }
 
@@ -56,7 +69,6 @@ li:hover {
     float:left;
     width: 380px;
     margin: 10px;
-    overflow: auto;
     line-height: 1.7;
 }
 
@@ -64,7 +76,6 @@ li:hover {
     float:left;
     width: 380px;
     margin: 10px;
-    overflow: auto;
     line-height: 1.7;
    
 }
@@ -76,5 +87,10 @@ img {
 
 .card img {
     margin-left: 5px;
+}
+
+.navbar {
+    text-align: center;
+    margin: 20px 0px 20px;
 }
 
